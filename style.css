@@ -26,7 +26,6 @@ header.l {
 	background-color: black;
         width: 1295px;
 	margin-left: -10px;
-	margin-top: 15px; 
 	color: white;
 }
 
@@ -35,7 +34,7 @@ p.livrason {
 	text-align: center;
 /* 	margin-left: 35%; */
 	font-size: 13px;
-/* 	margin-top: 15px; */
+        margin-top: 15px; 
 }
 
 
