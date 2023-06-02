@@ -25,9 +25,11 @@ body {
 header.l {
 	background-color: black;
 	line-height: 30px;
-	width: 1295px;
+	line-heught:30px;
+	text-align: center;
+/* 	width: 1295px;
 	margin-left: -10px;
-	margin-top: -18px;
+	margin-top: -18px; */
 	color: white;
 }
 
