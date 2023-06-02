@@ -1,0 +1,240 @@
+
+/*Size of the Page*/
+* {
+
+	/*margin: 0;
+	padding: 0;*/
+	box-sizing: border-box;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+    font-size: 16px;
+    font-family: cambria, cochin, georgia, times;
+}
+
+body {
+	width: 100%;
+    min-height: 100vh;
+   
+}
+
+/*Header bar livraison*/
+
+header.l {
+	background-color: black;
+	line-height: 30px;
+	width: 1295px;
+	margin-left: -10px;
+	margin-top: -18px;
+	color: white;
+}
+
+p.livrason {
+	margin-left: 35%;
+	font-size: 13px;
+	margin-top: 15px;
+}
+
+
+
+
+
+
+/*Logo*/
+
+.logo img.image {
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+img.image {
+	margin-top: -1%;
+	padding-left: 0.9%;
+	width: 120px;
+	height: 83px;
+	display: inline-block;
+}
+
+/*menu*/
+/*p.menu {
+	padding-right: 30%;
+	padding-top: -30px;
+
+
+}*/
+
+hr.one {
+	width: 890px;
+	margin-left: 45px; 
+}	
+
+
+nav.menu-nav {
+  padding-left: 170px;
+  padding-top: 10px;
+  width: 100%;
+/*  overflow: auto;*/
+}
+
+nav.menu-nav ul {
+	display: inline;
+	list-style-type: none;
+	padding: 70px;
+	margin: 30px;
+
+}
+
+nav.menu-nav li.btn {
+	float: left;
+}
+
+nav.menu-nav ul li.btn a {
+	width: 100px;
+	display: block;
+    text-align: center;
+	color: black;
+	text-decoration: none;
+	background-color: white;
+	
+	font-style: bold;
+	font-size: 15px;
+	letter-spacing: 1px;
+
+
+}
+
+nav.menu-nav ul li.btn:hover a {
+	color: white;
+	background-color: black;
+	transition: 0.3s all;
+}
+
+
+
+/*p.body {
+	width: 70px;
+	height: 30px;
+	display: block;
+}*/
+
+
+/*middle*/
+
+h2.buy {
+	padding-left: 50px;
+	padding-bottom: -50px;
+	padding-top: 80px;
+}
+
+div#content div{
+	display: inline-block;
+	width: 300px;
+}
+
+div#content div:hover a {
+	transition: 0,3s all;
+	opacity: 80%;
+}
+
+div#content div:hover img.popup {
+	width: 350px;
+	height: 300px;
+	transition: 1s all;
+}    
+
+
+div#content div img {
+	width: 250px;
+	height: 200px;
+	padding-left: 50px;
+}
+
+div#content div p {
+	font-size: 15px;
+	color: #363436;
+	height: 50px;
+
+}
+
+div#content div p.n {
+	padding-left: 100px;
+}
+
+div#content div p.a {
+	padding-left: 50px;
+}
+
+div#content div p.s {
+	padding-left: 120px;
+}
+
+div#content div p.p {
+	padding-left: 120px;
+}
+
+
+/*Bas de Page*/
+footer {
+	flex-shrink: 0;
+	border-top: 1px dashed black;
+	width: 100%;
+	background: white;
+	color: grey;
+}
+.contenu-footer {
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	font-size: 15px;
+	padding: 50px 0 100px;
+}
+
+.bloc {
+	width: 25%;
+	margin: 0;
+}
+
+/*aide*/
+.footer-aide h3, 
+.footer-services h3,
+.footer-decouvrir h3 {
+	font-size: 25px;
+	padding-bottom: 7px;
+}
+
+.liste-aide,
+.liste-services,
+.liste-decouvrir {
+	list-style-type: none;
+	padding: 2px 0;
+}
+
+.liste-aide a,
+.liste-services a,
+.liste-decouvrir a {
+	text-decoration: none;
+	color: grey;
+}
+
+.liste-aide a:hover,
+.liste-services a:hover,
+.liste-decouvrir a:hover {
+	color: black;
+}
+
+
+    
+footer p {
+ 
+  margin: 0 auto;
+   display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	font-size: 15px;
+	padding: 50px 0 100px;
+}
