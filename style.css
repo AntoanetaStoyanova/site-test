@@ -2,8 +2,8 @@
 /*Size of the Page*/
 * {
 
-	/*margin: 0;
-	padding: 0;*/
+	margin: 0;
+	padding: 0;
 	box-sizing: border-box;
 }
 
@@ -24,19 +24,18 @@ body {
 
 header.l {
 	background-color: black;
-	line-height: 30px;
-	line-heught:30px;
-	text-align: center;
-/* 	width: 1295px;
+        width: 1295px;
 	margin-left: -10px;
-	margin-top: -18px; */
+	margin-top: -18px;
 	color: white;
 }
 
 p.livrason {
-	margin-left: 35%;
+	line-height: 30px;
+	text-align: center;
+/* 	margin-left: 35%; */
 	font-size: 13px;
-	margin-top: 15px;
+/* 	margin-top: 15px; */
 }
 
 
