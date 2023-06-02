@@ -24,13 +24,13 @@ body {
 
 header.l {
 	background-color: black;
-        width: 1295px;
+/*         width: 1295px; */
 	margin-left: -10px;
 	color: white;
 }
 
 p.livrason {
-	line-height: 30px;
+/* 	line-height: 30px; */
 	text-align: center;
 /* 	margin-left: 35%; */
 	font-size: 13px;
